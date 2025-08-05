@@ -43,11 +43,12 @@ p{
     height: 100%;
 }
 
-.reset{
+center  button{
     font-size: 24px;
     padding: 10px 10px;
     font-weight: bold;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .elements button{
@@ -62,4 +63,23 @@ p{
     font-size: 18px;
     font-weight: 600;
     margin:20px 0px;
+}
+span{
+    margin-right: 10px;
+}
+
+.anime{
+    animation: size 0.5s linear;
+}
+
+@keyframes size{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
